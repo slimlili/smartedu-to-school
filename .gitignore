@@ -1,0 +1,8 @@
+# 个人凭证 —— 永不提交
+secret/
+
+# macOS
+.DS_Store
+
+# 历史归档脚本（无独立维护价值，且同样读 secret）
+_archive/

@@ -1,0 +1,361 @@
+{
+  "chapter": "第十章 静电场中的能量",
+  "chapter_id": "05ada5f3-7472-3570-85a9-f9f1caa55af2",
+  "book": "人教版 必修第三册",
+  "lessons": [
+    {
+      "lesson_no": "1",
+      "lesson": "电势能和电势",
+      "activity_id": "64d6ab86-e71e-48fb-b004-b1137334bdbe",
+      "chapter_node": "1eb3c003-23f1-315f-8bff-2a9462ff833d",
+      "resources": [
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "电势能和电势（第一课时）",
+          "file": "电势能和电势（第一课时）-课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/6b7b2b00-fbc3-16e6-a6e8-bcb10d07a628.t/zh-CN/1697518444194/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第一课时）-课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "电势能和电势（第一课时）",
+          "file": "电势能和电势（第一课时）-教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/368cea56-84e9-e619-0a89-03c72b2c5029.t/zh-CN/1697525066468/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第一课时）-教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "电势能和电势（第一课时）",
+          "file": "电势能和电势（第一课时）-学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bbe67f3547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第一课时）-学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "电势能和电势（第一课时）",
+          "file": "电势能和电势（第一课时）-课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bcf63ce547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第一课时）-课后练习.pdf"
+        },
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "电势能和电势（第二课时）",
+          "file": "电势能和电势（第二课时）-课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/d50beab3-80bf-2d16-aee9-e571b20496e8.t/zh-CN/1697518444649/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第二课时）-课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "电势能和电势（第二课时）",
+          "file": "电势能和电势（第二课时）-教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/d825522e-d654-56d3-d352-df3358b7b284.t/zh-CN/1697525066933/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第二课时）-教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "电势能和电势（第二课时）",
+          "file": "电势能和电势（第二课时）-学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bcdb61b547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第二课时）-学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "电势能和电势（第二课时）",
+          "file": "电势能和电势（第二课时）-课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bcef540547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "1.电势能和电势/电势能和电势（第二课时）-课后练习.pdf"
+        }
+      ],
+      "source_url": "https://basic.smartedu.cn/syncClassroom/classActivity?activityId=64d6ab86-e71e-48fb-b004-b1137334bdbe"
+    },
+    {
+      "lesson_no": "2",
+      "lesson": "电势差",
+      "activity_id": "f9b579e6-0586-4b67-88a7-3bf93960aa04",
+      "chapter_node": "399e2d25-b3c0-3e19-b71b-9ba46f161eb0",
+      "resources": [
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "电势差",
+          "file": "课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/298612f3-f2fe-811d-3a98-0789862fc183.t/zh-CN/1697518445302/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "2.电势差/课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "电势差",
+          "file": "教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/0464c485-650d-7656-a810-ff1fbc94ab06.t/zh-CN/1697525067635/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "2.电势差/教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "电势差",
+          "file": "学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bc095e9547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "2.电势差/学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "电势差",
+          "file": "课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bcbdfba547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "2.电势差/课后练习.pdf"
+        }
+      ],
+      "source_url": "https://basic.smartedu.cn/syncClassroom/classActivity?activityId=f9b579e6-0586-4b67-88a7-3bf93960aa04"
+    },
+    {
+      "lesson_no": "3",
+      "lesson": "电势差与电场强度的关系",
+      "activity_id": "cd9eda2d-1090-49c5-afb7-1348a3d73e21",
+      "chapter_node": "be9bd393-9cdd-3375-a13b-a060e1720865",
+      "resources": [
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "电势差与电场强度的关系",
+          "file": "课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/eba34072-eaaf-2086-952e-29ae6e59dcf5.t/zh-CN/1697518445849/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "3.电势差与电场强度的关系/课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "电势差与电场强度的关系",
+          "file": "教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/6038f5ca-c349-3e18-e022-be7352f29b87.t/zh-CN/1697525068255/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "3.电势差与电场强度的关系/教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "电势差与电场强度的关系",
+          "file": "学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bc199ec547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "3.电势差与电场强度的关系/学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "电势差与电场强度的关系",
+          "file": "课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bc762f4547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "3.电势差与电场强度的关系/课后练习.pdf"
+        }
+      ],
+      "source_url": "https://basic.smartedu.cn/syncClassroom/classActivity?activityId=cd9eda2d-1090-49c5-afb7-1348a3d73e21"
+    },
+    {
+      "lesson_no": "4",
+      "lesson": "电容器的电容",
+      "activity_id": "f45d13e6-626b-4e8b-8cb3-dae2f009a88a",
+      "chapter_node": "3f1bbd42-0213-32b2-88f5-8db797b00765",
+      "resources": [
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "电容器的电容",
+          "file": "学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bc72b8a547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "4.电容器的电容/学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "电容器的电容",
+          "file": "课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/assets/3cb3ffb9-5481-11eb-96b8-fa20200c3759.t/zh-CN/1698841123946/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "4.电容器的电容/课后练习.pdf"
+        }
+      ],
+      "source_url": "https://basic.smartedu.cn/syncClassroom/classActivity?activityId=f45d13e6-626b-4e8b-8cb3-dae2f009a88a"
+    },
+    {
+      "lesson_no": "5",
+      "lesson": "带电粒子在电场中的运动",
+      "activity_id": "011a549e-ad60-45ab-9254-fe97ced7043a",
+      "chapter_node": "e1846db2-c878-3564-87ed-de680a716535",
+      "resources": [
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "静电场中的能量复习",
+          "file": "课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/fef27c09-9138-a270-e803-f0caa0b8aae3.t/zh-CN/1697518447532/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "0.复习-静电场中的能量复习/课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "静电场中的能量复习",
+          "file": "教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/8ce07e58-17ef-fd23-f278-cb8ae7da8d2a.t/zh-CN/1697525069974/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "0.复习-静电场中的能量复习/教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "静电场中的能量复习",
+          "file": "学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bd1a4fb547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "0.复习-静电场中的能量复习/学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "静电场中的能量复习",
+          "file": "课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bcc27bc547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "0.复习-静电场中的能量复习/课后练习.pdf"
+        }
+      ],
+      "source_url": "https://basic.smartedu.cn/syncClassroom/classActivity?activityId=011a549e-ad60-45ab-9254-fe97ced7043a"
+    },
+    {
+      "lesson_no": "5",
+      "lesson": "带电粒子在电场中的运动",
+      "activity_id": "2876a953-9f57-42a8-994c-67bc4968e754",
+      "chapter_node": "e1846db2-c878-3564-87ed-de680a716535",
+      "resources": [
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "带电粒子的电场中的运动（第一课时）",
+          "file": "带电粒子的电场中的运动（第一课时）-课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/3b1940ce-4be0-8390-4ea3-8574414a5b0b.t/zh-CN/1697518446443/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "带电粒子的电场中的运动（第一课时）",
+          "file": "带电粒子的电场中的运动（第一课时）-教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/138f7780-e4fe-da1d-d277-e659cf51c97f.t/zh-CN/1697525068849/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "带电粒子的电场中的运动（第一课时）",
+          "file": "带电粒子的电场中的运动（第一课时）-学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bc85f07547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "带电粒子的电场中的运动（第一课时）",
+          "file": "带电粒子的电场中的运动（第一课时）-课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bc7c0a2547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-课后练习.pdf"
+        },
+        {
+          "type": "coursewares",
+          "type_name": "课件",
+          "period": "带电粒子的电场中的运动（第二课时）",
+          "file": "带电粒子的电场中的运动（第二课时）-课件.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/coursewares/dcfe5cb3-9cdf-ee54-e4f9-00bbfb1f2877.t/zh-CN/1697518446865/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-课件.pdf"
+        },
+        {
+          "type": "lesson_plandesign",
+          "type_name": "教学设计",
+          "period": "带电粒子的电场中的运动（第二课时）",
+          "file": "带电粒子的电场中的运动（第二课时）-教学设计.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/esp/lesson_plandesign/3164555f-24d7-e094-e3ef-0e5d49834985.t/zh-CN/1697525069322/transcode/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-教学设计.pdf"
+        },
+        {
+          "type": "learning_task",
+          "type_name": "学习任务单",
+          "period": "带电粒子的电场中的运动（第二课时）",
+          "file": "带电粒子的电场中的运动（第二课时）-学习任务单.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bcf4d06547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-学习任务单.pdf"
+        },
+        {
+          "type": "after_class_exercise",
+          "type_name": "课后练习",
+          "period": "带电粒子的电场中的运动（第二课时）",
+          "file": "带电粒子的电场中的运动（第二课时）-课后练习.pdf",
+          "url": "https://r1-ndr-private.ykt.cbern.com.cn/edu_product/65/document/1bd1a9b3547a11eb96b8fa20200c3759/pdf.pdf",
+          "ext": "pdf",
+          "status": "ok",
+          "local": "5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-课后练习.pdf"
+        }
+      ],
+      "source_url": "https://basic.smartedu.cn/syncClassroom/classActivity?activityId=2876a953-9f57-42a8-994c-67bc4968e754"
+    }
+  ]
+}

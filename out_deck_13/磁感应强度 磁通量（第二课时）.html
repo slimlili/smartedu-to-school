@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>磁感应强度 磁通量（第二课时） · 课堂讲义</title>
+<style>
+:root{--green:#007020;--green-dark:#0E4E33;--green-deep:#00501f;--green-light:#E9F3EC;--line:#B0D0C0;--gold:#C9A227}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#26302b;font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif}
+#stage{position:fixed;left:50%;top:50%;width:1280px;height:720px;transform:translate(-50%,-50%) scale(var(--s,1));transform-origin:center;background:#fff;border-radius:10px;box-shadow:0 14px 60px rgba(0,0,0,.5);overflow:hidden}
+.slide{position:absolute;inset:0;padding:34px 56px;display:none;flex-direction:column}
+.slide.on{display:flex}
+.s-head{display:flex;align-items:baseline;gap:14px;border-bottom:3px solid var(--green);padding-bottom:8px;margin-bottom:12px;flex:0 0 auto}
+.crumb{background:var(--green);color:#fff;font-weight:700;font-size:18px;padding:2px 14px;border-radius:12px;white-space:nowrap}
+.s-title{font-size:34px;font-weight:800;color:var(--green-dark)}
+.s-body{flex:1 1 auto;font-size:28px;line-height:1.65;overflow-y:auto;min-height:0}
+.s-body p{margin:.28em 0}
+.fig{text-align:center;margin:10px 0}
+.fig img{max-height:300px;max-width:80%;background:#fff}
+.goalcard p,.plaincard p{font-size:28px}
+.goalcard{background:linear-gradient(180deg,#f7fbf7,#eef6ef);border:1px solid var(--line);border-radius:14px;padding:18px 24px}
+/* 选择题选项 */
+.opts{margin:6px 0;display:flex;align-items:baseline}
+.opts .opt{display:inline-flex;align-items:baseline;line-height:1.6;font-size:26px;margin:2px 0}
+.opts .ol{font-weight:700;color:var(--green);margin-right:4px;flex:0 0 auto}
+.opts .oc{flex:0 1 auto}
+.opts.justified{justify-content:space-between;flex-wrap:nowrap}
+.opts.justified .opt{flex:1 1 0}
+.opts.stacked{flex-direction:column;align-items:stretch}
+.opts.stacked .opt{width:100%}
+
+/* cover —— 浅色底 */
+.slide.cover{background:linear-gradient(145deg,#F4FBF6 0%,#E6F3EA 55%,#D7ECDE 100%);color:var(--green-dark);justify-content:center;align-items:center;text-align:center}
+.cv-school{font-size:22px;letter-spacing:3px;color:var(--green-dark);font-weight:700}
+.cv-book{font-size:16px;color:#4a705b;margin:6px 0 20px;letter-spacing:2px}
+.cv-title{font-size:58px;font-weight:900;letter-spacing:2px;color:var(--green-deep);margin:6px 0;text-shadow:0 1px 0 #fff}
+.cv-sub{font-size:25px;color:var(--green-dark);background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:999px;padding:4px 24px;margin-top:8px}
+.cv-hint{position:absolute;bottom:22px;font-size:14px;color:#55705f;opacity:.75}
+/* divider */
+.slide.divider{justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,#fff,#eef6ef)}
+.slide.divider .dv{font-size:60px;font-weight:900;color:var(--green-dark)}
+.slide.divider .dv2{font-size:18px;color:#55705f;margin-top:6px}
+/* toggle answer */
+.toggle{margin-top:16px;border:2px solid var(--green);background:#fff;color:var(--green-dark);font-weight:700;border-radius:999px;padding:8px 26px;cursor:pointer;font-size:22px;font-family:inherit}
+.s-body.open .toggle{background:var(--green);color:#fff}
+.ansbox{display:none;margin-top:12px;background:#f2f8f3;border:1px solid var(--line);border-left:5px solid var(--green);border-radius:10px;padding:12px 22px;font-size:24px;line-height:1.6}
+.s-body.open .ansbox{display:block}
+.ansbox p{margin:.18em 0}.ansbox p.eq{font-family:"Times New Roman",serif}
+.ansbox .afig{text-align:center}.ansbox .afig img{max-height:180px}
+.nonset{color:#a67a00}
+/* nav */
+#prev,#next{position:fixed;top:50%;transform:translateY(-50%);z-index:30;background:rgba(10,20,14,.72);color:#fff;border:0;width:54px;height:54px;border-radius:50%;font-size:26px;cursor:pointer;font-family:inherit}
+#prev{left:calc(50% - min(50vw,50vh*1.7778)/2 - 76px)}
+#next{right:calc(50% - min(50vw,50vh*1.7778)/2 - 76px)}
+#prev:disabled,#next:disabled{opacity:.25}
+#pager{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);color:#d8e2db;background:rgba(0,0,0,.45);padding:4px 18px;border-radius:999px;font-size:14px}
+kbd{border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:0 6px;font-family:inherit}
+</style></head><body>
+<div id="stage"><section class="slide cover">
+      <div class="cv-school">深圳外国语学校博雅高中 · 物理</div>
+      <div class="cv-book">必修第三册 · 第十章 静电场中的能量</div>
+      <div class="cv-title">磁感应强度 磁通量</div>
+      <div class="cv-sub">磁感应强度 磁通量（第二课时）</div>
+      <div class="cv-hint">→ 方向键/空格翻页 · 讲解要点点击展开</div>
+    </section>
+<section class="slide"><div class="s-head"><span class="crumb">本课目标</span><span class="s-title">学习目标</span></div><div class="s-body goalcard"><p>目标一：知道匀强磁场的特点； </p><p>目标二：知道磁通量，会计算在匀强磁场中通过某一面积的磁通量 </p></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课前任务</span><span class="s-title">课前学习任务</span></div><div class="s-body goalcard"><p>阅读课本、查阅资料，了解地磁场 </p></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务一</span><span class="s-title">【学习任务一】</span></div>
+          <div class="s-body"><p>磁感应强度<i>B</i> 为0.2 T 的匀强磁场中，有一个面积<i>S</i> 为0.1 m<sup>2</sup> 的平面<i>abcd</i>，可以绕其边<i>bc</i> 转动，初始位置平面与磁场方向垂直。 (1) 则此时穿过平面的磁通量是多少？ (2) 若线圈从初始位置绕<i>bc</i> 转过60°角，则穿过平面的磁通量是多少？ (3)若平面从初始位置转过 90°角，则穿过平面的磁通量是多少？ (4)若平面从初始位置转过 180°角，则穿过平面的磁通量是多少 </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">磁通量 Φ=BScosθ（θ 为平面法线与 B 夹角）。初始垂直 θ=0，Φ=BS=0.2×0.1=0.02 Wb。<br>绕 bc 转动 θ 增大，Φ 减小；转到与磁场平行时 Φ=0。按题目各位置代入 cosθ 计算。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务二</span><span class="s-title">【学习任务二】</span></div>
+          <div class="s-body"><p>如图，匀强磁场的磁感应强度<i>B</i> 为0.2 T，方向沿<i>x</i> 轴的正方向，且线段 <i>MN</i>、 <i>DC</i> 相等，长度为 0.4 m，线段<i>NC</i>、<i>EF</i>、<i>MD</i>、<i>NE</i>、<i>CF</i> 相等，长度为</p><p>0.3 m，通过面积<i>S</i><sub>1</sub>、 <i>S</i><sub>2</sub>、<i>S</i><sub>3</sub> 的磁通量<i>Φ</i><sub>1</sub>、<i>Φ</i><sub>2</sub>、<i>Φ</i><sub>3</sub> 各是多少？ </p><div class="fig"><img src="data:image/png;base64,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"></div><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">匀强磁场沿 x 轴，B=0.2 T。磁通量只看垂直于 x 轴的投影面积：<br>对与 x 垂直的矩形面 Φ=B·S（S 为垂直 x 的面积分量）；MN、DC 长 0.4 m，按图中各线段围成面积在 x 方向投影代入 Φ=BScosθ 计算各面磁通量。</div></div></section>
+<section class="slide divider"><div class="dv">课后练习</div><div class="dv2">点击题目下方按钮查看解析</div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 1</span><span class="s-title"></span></div>
+      <div class="s-body"><p>如图，边长为l 的n 匝正方形线框内部有一边长为2磁场，磁场的磁感应强度为<i>B</i>，则穿过线框的磁通量是多少？ </p><div class="fig"><img src="data:image/png;base64,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"></div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 2</span><span class="s-title"></span></div>
+      <div class="s-body"><p>如图，条形磁体竖直放置，一个水平圆环从条形磁体上方位置A 向下运动，先到达磁体上端位置<i>B</i>，然后到达磁体中部<i>P</i>，再到达磁体下端位置<i>Q</i>，最后到达下方<i>L</i>。在运动过程中，穿过圆环的磁通量如何变化？ </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox"><p>【参考答案】 2.先增大后减小，在磁体中部达到最大 </p></div></div></section></div>
+<button id="prev" disabled>‹</button><button id="next">›</button>
+<div id="pager"><span id="pg"></span></div>
+<script>
+function fit(){var s=Math.min(innerWidth/1280,innerHeight/720);document.getElementById('stage').style.setProperty('--s',(s*.98).toFixed(4));}
+addEventListener('resize',fit);
+var S=[].slice.call(document.querySelectorAll('.slide')),i=0;
+function go(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach(function(s,k){s.classList.toggle('on',k===i)});
+document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===S.length-1;
+document.getElementById('pg').textContent=(i+1)+' / '+S.length;
+document.getElementById('stage').scrollTop=0;}
+document.getElementById('prev').onclick=function(){go(i-1)};
+document.getElementById('next').onclick=function(){go(i+1)};
+addEventListener('keydown',function(e){
+ if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();go(i+1);}
+ else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1);}
+ else if(e.key==='Home')go(0); else if(e.key==='End')go(S.length-1);});
+document.addEventListener('click',function(e){
+  var t=e.target.closest('.toggle'); if(!t)return;
+  var body=t.parentNode; var open=body.classList.toggle('open');
+  t.textContent = open ? '🙈 隐藏解析' : '💡 显示解析';
+});
+fit();go(0);
+</script></body></html>

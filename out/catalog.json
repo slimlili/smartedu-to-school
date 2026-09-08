@@ -1,0 +1,1133 @@
+{
+  "book": "高中物理人教版必修第三册",
+  "chapters": [
+    {
+      "title": "0.必修第三册复习",
+      "lessons": [
+        {
+          "order": 0,
+          "name": "必修第三册复习",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "0.必修第三册复习/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "0.必修第三册复习/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "0.必修第三册复习/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "0.必修第三册复习/课后练习.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第九章 静电场及其应用",
+      "lessons": [
+        {
+          "order": 1,
+          "name": "1.电荷",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第九章 静电场及其应用/1.电荷/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第九章 静电场及其应用/1.电荷/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第九章 静电场及其应用/1.电荷/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第九章 静电场及其应用/1.电荷/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2.库仑定律",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "库仑定律（第一课时）-学习任务单.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "库仑定律（第一课时）-教学设计.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "库仑定律（第一课时）-课件.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "库仑定律（第一课时）-课后练习.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "库仑定律（第二课时）-学习任务单.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "库仑定律（第二课时）-教学设计.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "库仑定律（第二课时）-课件.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "库仑定律（第二课时）-课后练习.pdf",
+              "local": "第九章 静电场及其应用/2.库仑定律/库仑定律（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3.电场 电场强度",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电场 电场强度（第一课时）-学习任务单.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电场 电场强度（第一课时）-教学设计.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电场 电场强度（第一课时）-课件.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电场 电场强度（第一课时）-课后练习.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电场 电场强度（第二课时）-学习任务单.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电场 电场强度（第二课时）-教学设计.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电场 电场强度（第二课时）-课件.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电场 电场强度（第二课时）-课后练习.pdf",
+              "local": "第九章 静电场及其应用/3.电场 电场强度/电场 电场强度（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4.静电的防止与利用",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第九章 静电场及其应用/4.静电的防止与利用/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第九章 静电场及其应用/4.静电的防止与利用/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第九章 静电场及其应用/4.静电的防止与利用/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第九章 静电场及其应用/4.静电的防止与利用/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5.静电场及其应用复习",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第九章 静电场及其应用/5.静电场及其应用复习/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第九章 静电场及其应用/5.静电场及其应用复习/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第九章 静电场及其应用/5.静电场及其应用复习/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第九章 静电场及其应用/5.静电场及其应用复习/课后练习.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十章 静电场中的能量",
+      "lessons": [
+        {
+          "order": 1,
+          "name": "1.电势能和电势",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电势能和电势（第一课时）-学习任务单.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电势能和电势（第一课时）-教学设计.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电势能和电势（第一课时）-课件.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电势能和电势（第一课时）-课后练习.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电势能和电势（第二课时）-学习任务单.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电势能和电势（第二课时）-教学设计.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电势能和电势（第二课时）-课件.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电势能和电势（第二课时）-课后练习.pdf",
+              "local": "第十章 静电场中的能量/1.电势能和电势/电势能和电势（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2.电势差",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十章 静电场中的能量/2.电势差/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十章 静电场中的能量/2.电势差/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十章 静电场中的能量/2.电势差/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十章 静电场中的能量/2.电势差/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3.电势差与电场强度的关系",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十章 静电场中的能量/3.电势差与电场强度的关系/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十章 静电场中的能量/3.电势差与电场强度的关系/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十章 静电场中的能量/3.电势差与电场强度的关系/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十章 静电场中的能量/3.电势差与电场强度的关系/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4.电容器的电容",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十章 静电场中的能量/4.电容器的电容/学习任务单.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十章 静电场中的能量/4.电容器的电容/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5.带电粒子在电场中的运动",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "带电粒子的电场中的运动（第一课时）-学习任务单.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "带电粒子的电场中的运动（第一课时）-教学设计.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "带电粒子的电场中的运动（第一课时）-课件.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "带电粒子的电场中的运动（第一课时）-课后练习.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "带电粒子的电场中的运动（第二课时）-学习任务单.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "带电粒子的电场中的运动（第二课时）-教学设计.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "带电粒子的电场中的运动（第二课时）-课件.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "带电粒子的电场中的运动（第二课时）-课后练习.pdf",
+              "local": "第十章 静电场中的能量/5.带电粒子在电场中的运动/带电粒子的电场中的运动（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6.静电场中的能量复习",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十章 静电场中的能量/6.静电场中的能量复习/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十章 静电场中的能量/6.静电场中的能量复习/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十章 静电场中的能量/6.静电场中的能量复习/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十章 静电场中的能量/6.静电场中的能量复习/课后练习.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十一章 电路及其应用",
+      "lessons": [
+        {
+          "order": 1,
+          "name": "1.电源和电流",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电源和电流（第一课时）-学习任务单.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电源和电流（第一课时）-教学设计.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电源和电流（第一课时）-课件.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电源和电流（第一课时）-课后练习.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电源和电流（第二课时）-学习任务单.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电源和电流（第二课时）-教学设计.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电源和电流（第二课时）-课件.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电源和电流（第二课时）-课后练习.pdf",
+              "local": "第十一章 电路及其应用/1.电源和电流/电源和电流（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2.导体的电阻",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十一章 电路及其应用/2.导体的电阻/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十一章 电路及其应用/2.导体的电阻/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十一章 电路及其应用/2.导体的电阻/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十一章 电路及其应用/2.导体的电阻/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3.实验：导体电阻率的测量",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "实验：导体电阻率的测量（第一课时）-学习任务单.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "实验：导体电阻率的测量（第一课时）-教学设计.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "实验：导体电阻率的测量（第一课时）-课件.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "实验：导体电阻率的测量（第一课时）-课后练习.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "实验：导体电阻率的测量（第二课时）-学习任务单.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "实验：导体电阻率的测量（第二课时）-教学设计.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "实验：导体电阻率的测量（第二课时）-课件.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "实验：导体电阻率的测量（第二课时）-课后练习.pdf",
+              "local": "第十一章 电路及其应用/3.实验：导体电阻率的测量/实验：导体电阻率的测量（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4.串联电路和并联电路",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十一章 电路及其应用/4.串联电路和并联电路/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十一章 电路及其应用/4.串联电路和并联电路/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十一章 电路及其应用/4.串联电路和并联电路/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十一章 电路及其应用/4.串联电路和并联电路/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5.实验：练习使用多用电表",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十一章 电路及其应用/5.实验：练习使用多用电表/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十一章 电路及其应用/5.实验：练习使用多用电表/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十一章 电路及其应用/5.实验：练习使用多用电表/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十一章 电路及其应用/5.实验：练习使用多用电表/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6.电路及其应用复习",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十一章 电路及其应用/6.电路及其应用复习/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十一章 电路及其应用/6.电路及其应用复习/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十一章 电路及其应用/6.电路及其应用复习/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十一章 电路及其应用/6.电路及其应用复习/课后练习.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十二章 电能 能量守恒定律",
+      "lessons": [
+        {
+          "order": 1,
+          "name": "1.电路中的能量转化",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/1.电路中的能量转化/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/1.电路中的能量转化/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/1.电路中的能量转化/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/1.电路中的能量转化/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2.闭合电路的欧姆定律",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "闭合电路的欧姆定律（第一课时）-学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "闭合电路的欧姆定律（第一课时）-教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "闭合电路的欧姆定律（第一课时）-课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "闭合电路的欧姆定律（第一课时）-课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "闭合电路的欧姆定律（第二课时）-学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "闭合电路的欧姆定律（第二课时）-教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "闭合电路的欧姆定律（第二课时）-课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "闭合电路的欧姆定律（第二课时）-课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/2.闭合电路的欧姆定律/闭合电路的欧姆定律（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3.实验：电池电动势和内阻的测量",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "实验：电池电动势和内阻的测量（第一课时）-学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "实验：电池电动势和内阻的测量（第一课时）-教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "实验：电池电动势和内阻的测量（第一课时）-课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "实验：电池电动势和内阻的测量（第一课时）-课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "实验：电池电动势和内阻的测量（第二课时）-学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "实验：电池电动势和内阻的测量（第二课时）-教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "实验：电池电动势和内阻的测量（第二课时）-课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "实验：电池电动势和内阻的测量（第二课时）-课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/3.实验：电池电动势和内阻的测量/实验：电池电动势和内阻的测量（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4.能源与可持续发展",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/4.能源与可持续发展/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/4.能源与可持续发展/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/4.能源与可持续发展/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/4.能源与可持续发展/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5.电能 能量守恒定律复习",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十二章 电能 能量守恒定律/5.电能 能量守恒定律复习/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十二章 电能 能量守恒定律/5.电能 能量守恒定律复习/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十二章 电能 能量守恒定律/5.电能 能量守恒定律复习/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十二章 电能 能量守恒定律/5.电能 能量守恒定律复习/课后练习.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十三章 电磁感应与电磁波初步",
+      "lessons": [
+        {
+          "order": 1,
+          "name": "1.磁场 磁感线",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/1.磁场 磁感线/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/1.磁场 磁感线/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/1.磁场 磁感线/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/1.磁场 磁感线/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2.磁感应强度 磁通量",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "磁感应强度 磁通量（第一课时）-学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "磁感应强度 磁通量（第一课时）-教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "磁感应强度 磁通量（第一课时）-课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "磁感应强度 磁通量（第一课时）-课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "磁感应强度 磁通量（第二课时）-学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "磁感应强度 磁通量（第二课时）-教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "磁感应强度 磁通量（第二课时）-课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "磁感应强度 磁通量（第二课时）-课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/2.磁感应强度 磁通量/磁感应强度 磁通量（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3.电磁感应现象及应用",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电磁感应现象及应用（第一课时）-学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第一课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电磁感应现象及应用（第一课时）-教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第一课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电磁感应现象及应用（第一课时）-课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第一课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电磁感应现象及应用（第一课时）-课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第一课时）-课后练习.pdf"
+            },
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "电磁感应现象及应用（第二课时）-学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第二课时）-学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "电磁感应现象及应用（第二课时）-教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第二课时）-教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "电磁感应现象及应用（第二课时）-课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第二课时）-课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "电磁感应现象及应用（第二课时）-课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/3.电磁感应现象及应用/电磁感应现象及应用（第二课时）-课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4.电磁波的发现及应用",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/4.电磁波的发现及应用/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/4.电磁波的发现及应用/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/4.电磁波的发现及应用/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/4.电磁波的发现及应用/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5.能量量子化",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/5.能量量子化/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/5.能量量子化/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/5.能量量子化/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/5.能量量子化/课后练习.pdf"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6.电磁感应与电磁波初步复习",
+          "resources": [
+            {
+              "type": "learning_task",
+              "type_name": "学习任务单",
+              "file": "学习任务单.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/6.电磁感应与电磁波初步复习/学习任务单.pdf"
+            },
+            {
+              "type": "lesson_plandesign",
+              "type_name": "教学设计",
+              "file": "教学设计.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/6.电磁感应与电磁波初步复习/教学设计.pdf"
+            },
+            {
+              "type": "coursewares",
+              "type_name": "课件",
+              "file": "课件.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/6.电磁感应与电磁波初步复习/课件.pdf"
+            },
+            {
+              "type": "after_class_exercise",
+              "type_name": "课后练习",
+              "file": "课后练习.pdf",
+              "local": "第十三章 电磁感应与电磁波初步/6.电磁感应与电磁波初步复习/课后练习.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

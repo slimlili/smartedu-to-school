@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>闭合电路的欧姆定律（第一课时） · 课堂讲义</title>
+<style>
+:root{--green:#007020;--green-dark:#0E4E33;--green-deep:#00501f;--green-light:#E9F3EC;--line:#B0D0C0;--gold:#C9A227}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#26302b;font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif}
+#stage{position:fixed;left:50%;top:50%;width:1280px;height:720px;transform:translate(-50%,-50%) scale(var(--s,1));transform-origin:center;background:#fff;border-radius:10px;box-shadow:0 14px 60px rgba(0,0,0,.5);overflow:hidden}
+.slide{position:absolute;inset:0;padding:34px 56px;display:none;flex-direction:column}
+.slide.on{display:flex}
+.s-head{display:flex;align-items:baseline;gap:14px;border-bottom:3px solid var(--green);padding-bottom:8px;margin-bottom:12px;flex:0 0 auto}
+.crumb{background:var(--green);color:#fff;font-weight:700;font-size:18px;padding:2px 14px;border-radius:12px;white-space:nowrap}
+.s-title{font-size:34px;font-weight:800;color:var(--green-dark)}
+.s-body{flex:1 1 auto;font-size:28px;line-height:1.65;overflow-y:auto;min-height:0}
+.s-body p{margin:.28em 0}
+.fig{text-align:center;margin:10px 0}
+.fig img{max-height:300px;max-width:80%;background:#fff}
+.goalcard p,.plaincard p{font-size:28px}
+.goalcard{background:linear-gradient(180deg,#f7fbf7,#eef6ef);border:1px solid var(--line);border-radius:14px;padding:18px 24px}
+/* 选择题选项 */
+.opts{margin:6px 0;display:flex;align-items:baseline}
+.opts .opt{display:inline-flex;align-items:baseline;line-height:1.6;font-size:26px;margin:2px 0}
+.opts .ol{font-weight:700;color:var(--green);margin-right:4px;flex:0 0 auto}
+.opts .oc{flex:0 1 auto}
+.opts.justified{justify-content:space-between;flex-wrap:nowrap}
+.opts.justified .opt{flex:1 1 0}
+.opts.stacked{flex-direction:column;align-items:stretch}
+.opts.stacked .opt{width:100%}
+
+/* cover —— 浅色底 */
+.slide.cover{background:linear-gradient(145deg,#F4FBF6 0%,#E6F3EA 55%,#D7ECDE 100%);color:var(--green-dark);justify-content:center;align-items:center;text-align:center}
+.cv-school{font-size:22px;letter-spacing:3px;color:var(--green-dark);font-weight:700}
+.cv-book{font-size:16px;color:#4a705b;margin:6px 0 20px;letter-spacing:2px}
+.cv-title{font-size:58px;font-weight:900;letter-spacing:2px;color:var(--green-deep);margin:6px 0;text-shadow:0 1px 0 #fff}
+.cv-sub{font-size:25px;color:var(--green-dark);background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:999px;padding:4px 24px;margin-top:8px}
+.cv-hint{position:absolute;bottom:22px;font-size:14px;color:#55705f;opacity:.75}
+/* divider */
+.slide.divider{justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,#fff,#eef6ef)}
+.slide.divider .dv{font-size:60px;font-weight:900;color:var(--green-dark)}
+.slide.divider .dv2{font-size:18px;color:#55705f;margin-top:6px}
+/* toggle answer */
+.toggle{margin-top:16px;border:2px solid var(--green);background:#fff;color:var(--green-dark);font-weight:700;border-radius:999px;padding:8px 26px;cursor:pointer;font-size:22px;font-family:inherit}
+.s-body.open .toggle{background:var(--green);color:#fff}
+.ansbox{display:none;margin-top:12px;background:#f2f8f3;border:1px solid var(--line);border-left:5px solid var(--green);border-radius:10px;padding:12px 22px;font-size:24px;line-height:1.6}
+.s-body.open .ansbox{display:block}
+.ansbox p{margin:.18em 0}.ansbox p.eq{font-family:"Times New Roman",serif}
+.ansbox .afig{text-align:center}.ansbox .afig img{max-height:180px}
+.nonset{color:#a67a00}
+/* nav */
+#prev,#next{position:fixed;top:50%;transform:translateY(-50%);z-index:30;background:rgba(10,20,14,.72);color:#fff;border:0;width:54px;height:54px;border-radius:50%;font-size:26px;cursor:pointer;font-family:inherit}
+#prev{left:calc(50% - min(50vw,50vh*1.7778)/2 - 76px)}
+#next{right:calc(50% - min(50vw,50vh*1.7778)/2 - 76px)}
+#prev:disabled,#next:disabled{opacity:.25}
+#pager{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);color:#d8e2db;background:rgba(0,0,0,.45);padding:4px 18px;border-radius:999px;font-size:14px}
+kbd{border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:0 6px;font-family:inherit}
+</style></head><body>
+<div id="stage"><section class="slide cover">
+      <div class="cv-school">深圳外国语学校博雅高中 · 物理</div>
+      <div class="cv-book">必修第三册 · 第十章 静电场中的能量</div>
+      <div class="cv-title">闭合电路的欧姆定律</div>
+      <div class="cv-sub">闭合电路的欧姆定律（第一课时）</div>
+      <div class="cv-hint">→ 方向键/空格翻页 · 讲解要点点击展开</div>
+    </section>
+<section class="slide"><div class="s-head"><span class="crumb">本课目标</span><span class="s-title">学习目标</span></div><div class="s-body goalcard"><p>【目标一】通过知识回顾、实验观察，思考电源的作用，从感性认识逐步深入到理性探究——建立非静电力的概念。 </p><p>【目标二】分析不同电源非静电力做功的情况和能量转化情况，根据数据尝试比较电源做功本领，定义电动势。 </p><p>【目标三】通过演示实验和分析引出电源的内阻。 </p><p>【目标四】运用能量观念，从功能关系的角度对闭合电路的每个部分的能量转化做理论探究，推导出闭合电路的欧姆定律。 </p></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课前任务</span><span class="s-title">课前学习任务</span></div><div class="s-body goalcard"></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务一</span><span class="s-title">【学习任务一】</span></div>
+          <div class="s-body"><p>阅读课本P53-54，回答：电路中要有持续的电流，电源的作用是什么？ </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">电源作用：通过非静电力做功把其他形式能转化为电能，维持两极板电势差，使电路中有持续电流。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务二</span><span class="s-title">【学习任务二】</span></div>
+          <div class="s-body"><p>阅读课本P68-69，复习串、并联电路的特点。</p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">串联：I 相同、U 分压、R 相加；并联：U 相同、I 分流、1/R 相加。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务三</span><span class="s-title">【学习任务三】</span></div>
+          <div class="s-body"><p>复习部分电路欧姆定律，静电力做功与电势能的关系。</p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">部分电路欧姆定律 I=U/R；静电力做功 W=qU 等于电势能减少，W电=−ΔEp。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务一</span><span class="s-title">【学习任务一】</span></div>
+          <div class="s-body"><p>想一想：</p><p>1. 电源内部的正电荷受到静电力方向？静电力做正功还是负功？电势能如何变化？ </p><p>2. 电源中是什么力把正电荷从负极搬运到正极的？做正功还是负功？ </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">电源作用：通过非静电力做功把其他形式能转化为电能，维持两极板电势差，使电路中有持续电流。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务二</span><span class="s-title">【学习任务二】</span></div>
+          <div class="s-body"><p>思考与研究</p><p>1.想一想：不同类型的电源，非静电力是不同的，那么不同电源把其他形式的能转化电势能的本领相同吗？怎么比较电源非静电力做功本领的强弱呢？  </p><p>2. 这是三种电池每一节电池的数据：碱性干电池——将1C 的正电荷由电源负极搬运到正极，其非静电力做功1.5J。锌汞电池——将1C 的正电荷由电源负极搬运到正极，其非静电力做功1.2J。铅蓄电池——将0.6C 的正电荷由电源负极搬运到正极，非静电力做功1.2J 根据所给数据，判断哪一款电池搬运电荷的本领最强。 </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">串联：I 相同、U 分压、R 相加；并联：U 相同、I 分流、1/R 相加。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务三</span><span class="s-title">【学习任务三】</span></div>
+          <div class="s-body"><p>想一想：第一次用的是一节新电池给小灯泡供电，第二次是用一个旧电池供电。现象是第二次小泡亮度比第一次暗了很多。请大家猜想一下这是为什么呢？ </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">部分电路欧姆定律 I=U/R；静电力做功 W=qU 等于电势能减少，W电=−ΔEp。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务四</span><span class="s-title">【学习任务四】</span></div>
+          <div class="s-body"><p>理论探究：设电源电动势为E，电源内阻为r，外电路电阻为R，闭合电路的电流为<i>I</i>，通电时间为<i>t</i>。电源输出的电能与内、外电路转化的内能之间存在什。 </p><p>么关系？请推导出闭合电路的欧姆定律：</p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">电源输出电能 EIt；外电路内能 I²Rt；内电路内能 I²rt。<br>能量守恒：EIt=I²Rt+I²rt，约去 It 得 E=IR+Ir，即 I=E/(R+r)（闭合电路欧姆定律）。</div></div></section>
+<section class="slide divider"><div class="dv">课后练习</div><div class="dv2">点击题目下方按钮查看解析</div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 1</span><span class="s-title"></span></div>
+      <div class="s-body"><p>关于电源电动势大小的说法，正确的是 (   )</p><p><div class="opts stacked"><span class="opt"><span class="ol">A．</span><span class="oc">同一种电池，体积越大，电动势也越大 </span></span><span class="opt"><span class="ol">B．</span><span class="oc">电动势的大小表示电源把其他形式的能转化为电能的本领的大小 </span></span><span class="opt"><span class="ol">C．</span><span class="oc">电路断开时，电源的非静电力做功为0，电动势并不为0 </span></span><span class="opt"><span class="ol">D．</span><span class="oc">电路中电流越大，电源的非静力做功越多，电动势也越大 </span></span></div></p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox"><p>课后练习解析和答案 BC解析： 电源电动势是表征电源中非静电力做功能力的大小，是电源把其他形式的能转化成电能的本领的大小，与电池的体积无关，选项A 错误，选项B 正确。电动势E=Q是用比值定义的物理量，电流越大，在相同时间内通过的电量<i>q</i> 也越多，非静电力做的功<i>W</i> 也越大，比值Q不变。电动势决定于电源的性质，与外电路无关，选项C 正确，D 不正确。 </p></div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 2</span><span class="s-title"></span></div>
+      <div class="s-body"><p>一组铅蓄电池的电动势为4.8 V，内阻不为零，以下说法中正确的是( )</p><p><div class="opts stacked"><span class="opt"><span class="ol">A．</span><span class="oc">电路中每通过1 C 电荷量，铅蓄电池能把4.8 J 的化学能转变为电能 </span></span><span class="opt"><span class="ol">B．</span><span class="oc">体积大的铅蓄电池比体积小的铅蓄电池的电动势大 </span></span><span class="opt"><span class="ol">C．</span><span class="oc">电路中每通过1 C 电荷量，铅蓄电池内部非静电力做功为4.8 J </span></span><span class="opt"><span class="ol">D．</span><span class="oc">该铅蓄电池把其他形式能转化为电能的本领比一节干电池(电动势为</span></span></div></p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox"><p>ACD解析：<i>W</i>＝<i>Eq</i> 可知，电路中每通过1 C 的电荷量时，电池将4.8 J 的化学能转化为电能，故A 正确；电池的电动势只与电池的性质有关，与体积无关，故B 错误；电路中每通过1 C 的电荷量，电池内部非静电力做功为<i>W</i>＝<i>Eq</i>＝4.8 J，故C 正确；电动势反映电源将其他形式的能转化为电能的本领，故D 正确。 </p></div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 1</span><span class="s-title"></span></div>
+      <div class="s-body"><p>5 V)的强</p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox"><p>课后练习解析和答案 BC解析： 电源电动势是表征电源中非静电力做功能力的大小，是电源把其他形式的能转化成电能的本领的大小，与电池的体积无关，选项A 错误，选项B 正确。电动势E=Q是用比值定义的物理量，电流越大，在相同时间内通过的电量<i>q</i> 也越多，非静电力做的功<i>W</i> 也越大，比值Q不变。电动势决定于电源的性质，与外电路无关，选项C 正确，D 不正确。 </p></div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 3</span><span class="s-title"></span></div>
+      <div class="s-body"><p>将电动势为3.0 V 的电源接入电路中，测得电源两极间的电压为 2.4 V，当电路中有6 C 的电荷流过时，求： (1)有多少其他形式的能转化为电能 (2)外电路中有多少电能转化为其他形式的能 (3)内电路中有多少电能转化为其他形式的能 </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox"><p>(1)18 J (2)14.4 J (3)3.6 J 解析：(1)W＝Eq＝3×6 J＝18 J 电源中共有18 J 其他形式的能转化为电能． (2)W1＝U1q＝2.4×6 J＝14.4 J 外电路中共有14.4 J 电能转化为其他形式的能． (3)内电压U2＝E－U1＝3 V－2.4 V＝0.6 V ∴W2＝U2q＝0.6×6 J＝3.6 J 内电路中共有3.6 J 电能转化为其他形式的能．也可由能量守恒求出：W2＝W－W1＝3.6 J</p></div></div></section></div>
+<button id="prev" disabled>‹</button><button id="next">›</button>
+<div id="pager"><span id="pg"></span></div>
+<script>
+function fit(){var s=Math.min(innerWidth/1280,innerHeight/720);document.getElementById('stage').style.setProperty('--s',(s*.98).toFixed(4));}
+addEventListener('resize',fit);
+var S=[].slice.call(document.querySelectorAll('.slide')),i=0;
+function go(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach(function(s,k){s.classList.toggle('on',k===i)});
+document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===S.length-1;
+document.getElementById('pg').textContent=(i+1)+' / '+S.length;
+document.getElementById('stage').scrollTop=0;}
+document.getElementById('prev').onclick=function(){go(i-1)};
+document.getElementById('next').onclick=function(){go(i+1)};
+addEventListener('keydown',function(e){
+ if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();go(i+1);}
+ else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1);}
+ else if(e.key==='Home')go(0); else if(e.key==='End')go(S.length-1);});
+document.addEventListener('click',function(e){
+  var t=e.target.closest('.toggle'); if(!t)return;
+  var body=t.parentNode; var open=body.classList.toggle('open');
+  t.textContent = open ? '🙈 隐藏解析' : '💡 显示解析';
+});
+fit();go(0);
+</script></body></html>

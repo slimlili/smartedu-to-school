@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>电源和电流（第一课时） · 课堂讲义</title>
+<style>
+:root{--green:#007020;--green-dark:#0E4E33;--green-deep:#00501f;--green-light:#E9F3EC;--line:#B0D0C0;--gold:#C9A227}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#26302b;font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif}
+#stage{position:fixed;left:50%;top:50%;width:1280px;height:720px;transform:translate(-50%,-50%) scale(var(--s,1));transform-origin:center;background:#fff;border-radius:10px;box-shadow:0 14px 60px rgba(0,0,0,.5);overflow:hidden}
+.slide{position:absolute;inset:0;padding:34px 56px;display:none;flex-direction:column}
+.slide.on{display:flex}
+.s-head{display:flex;align-items:baseline;gap:14px;border-bottom:3px solid var(--green);padding-bottom:8px;margin-bottom:12px;flex:0 0 auto}
+.crumb{background:var(--green);color:#fff;font-weight:700;font-size:18px;padding:2px 14px;border-radius:12px;white-space:nowrap}
+.s-title{font-size:34px;font-weight:800;color:var(--green-dark)}
+.s-body{flex:1 1 auto;font-size:28px;line-height:1.65;overflow-y:auto;min-height:0}
+.s-body p{margin:.28em 0}
+.fig{text-align:center;margin:10px 0}
+.fig img{max-height:300px;max-width:80%;background:#fff}
+.goalcard p,.plaincard p{font-size:28px}
+.goalcard{background:linear-gradient(180deg,#f7fbf7,#eef6ef);border:1px solid var(--line);border-radius:14px;padding:18px 24px}
+/* 选择题选项 */
+.opts{margin:6px 0;display:flex;align-items:baseline}
+.opts .opt{display:inline-flex;align-items:baseline;line-height:1.6;font-size:26px;margin:2px 0}
+.opts .ol{font-weight:700;color:var(--green);margin-right:4px;flex:0 0 auto}
+.opts .oc{flex:0 1 auto}
+.opts.justified{justify-content:space-between;flex-wrap:nowrap}
+.opts.justified .opt{flex:1 1 0}
+.opts.stacked{flex-direction:column;align-items:stretch}
+.opts.stacked .opt{width:100%}
+
+/* cover —— 浅色底 */
+.slide.cover{background:linear-gradient(145deg,#F4FBF6 0%,#E6F3EA 55%,#D7ECDE 100%);color:var(--green-dark);justify-content:center;align-items:center;text-align:center}
+.cv-school{font-size:22px;letter-spacing:3px;color:var(--green-dark);font-weight:700}
+.cv-book{font-size:16px;color:#4a705b;margin:6px 0 20px;letter-spacing:2px}
+.cv-title{font-size:58px;font-weight:900;letter-spacing:2px;color:var(--green-deep);margin:6px 0;text-shadow:0 1px 0 #fff}
+.cv-sub{font-size:25px;color:var(--green-dark);background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:999px;padding:4px 24px;margin-top:8px}
+.cv-hint{position:absolute;bottom:22px;font-size:14px;color:#55705f;opacity:.75}
+/* divider */
+.slide.divider{justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,#fff,#eef6ef)}
+.slide.divider .dv{font-size:60px;font-weight:900;color:var(--green-dark)}
+.slide.divider .dv2{font-size:18px;color:#55705f;margin-top:6px}
+/* toggle answer */
+.toggle{margin-top:16px;border:2px solid var(--green);background:#fff;color:var(--green-dark);font-weight:700;border-radius:999px;padding:8px 26px;cursor:pointer;font-size:22px;font-family:inherit}
+.s-body.open .toggle{background:var(--green);color:#fff}
+.ansbox{display:none;margin-top:12px;background:#f2f8f3;border:1px solid var(--line);border-left:5px solid var(--green);border-radius:10px;padding:12px 22px;font-size:24px;line-height:1.6}
+.s-body.open .ansbox{display:block}
+.ansbox p{margin:.18em 0}.ansbox p.eq{font-family:"Times New Roman",serif}
+.ansbox .afig{text-align:center}.ansbox .afig img{max-height:180px}
+.nonset{color:#a67a00}
+/* nav */
+#prev,#next{position:fixed;top:50%;transform:translateY(-50%);z-index:30;background:rgba(10,20,14,.72);color:#fff;border:0;width:54px;height:54px;border-radius:50%;font-size:26px;cursor:pointer;font-family:inherit}
+#prev{left:calc(50% - min(50vw,50vh*1.7778)/2 - 76px)}
+#next{right:calc(50% - min(50vw,50vh*1.7778)/2 - 76px)}
+#prev:disabled,#next:disabled{opacity:.25}
+#pager{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);color:#d8e2db;background:rgba(0,0,0,.45);padding:4px 18px;border-radius:999px;font-size:14px}
+kbd{border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:0 6px;font-family:inherit}
+</style></head><body>
+<div id="stage"><section class="slide cover">
+      <div class="cv-school">深圳外国语学校博雅高中 · 物理</div>
+      <div class="cv-book">必修第三册 · 第十章 静电场中的能量</div>
+      <div class="cv-title">电源和电流</div>
+      <div class="cv-sub">电源和电流（第一课时）</div>
+      <div class="cv-hint">→ 方向键/空格翻页 · 讲解要点点击展开</div>
+    </section>
+<section class="slide"><div class="s-head"><span class="crumb">本课目标</span><span class="s-title">学习目标</span></div><div class="s-body goalcard"><p>1、了解形成电流的条件 </p><p>2、知道电源的作用 </p><p>3、知道恒定电场，自由电子的定向移动。 </p><p>4、理解电流的定义、方向、单位。理解恒定电流 </p></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课前任务</span><span class="s-title">课前学习任务</span></div><div class="s-body goalcard"><p>阅读教材，并回顾初中的相关知识 </p></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务一</span><span class="s-title">【学习任务一】</span></div>
+          <div class="s-body"><p>了解电源的作用，恒定电场的形成 </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">电源的作用：通过非静电力把正电荷从负极搬运到正极，维持导体两端的电势差（电压），从而在电路中形成持续的电流。<br>恒定电场：接通后导线内形成稳定分布电荷，产生大小、方向都不随时间变化的恒定电场，导体中自由电子在恒定电场作用下做定向移动形成恒定电流。</div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">学习任务二</span><span class="s-title">【学习任务二】</span></div>
+          <div class="s-body"><p>从微观的角度理解电流的定义 </p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox">电流定义：I=q/t，表示单位时间内通过导体横截面的电荷量，单位安培(A)。<br>微观理解：电流是自由电荷定向移动的结果。金属中自由电子在电场力作用下整体缓慢定向移动（叠加在无规则热运动上），形成电流；电流方向规定为正电荷定向移动方向，与电子移动方向相反。</div></div></section>
+<section class="slide divider"><div class="dv">课后练习</div><div class="dv2">点击题目下方按钮查看解析</div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 1</span><span class="s-title"></span></div>
+      <div class="s-body"><p>通过一段导体的电流是5A，经过4min 通过该导体某一个横截面的电荷量是 <sup>－</sup><sup>10</sup>s，则等效电流大小为</p><p><div class="opts justified"><span class="opt"><span class="ol">A．</span><span class="oc">20C<i> </i></span></span><span class="opt"><span class="ol">B．</span><span class="oc">50C     </span></span><span class="opt"><span class="ol">C．</span><span class="oc">1200C    </span></span><span class="opt"><span class="ol">D．</span><span class="oc">2000C </span></span></div></p><button class="toggle" type="button">💡 显示解析</button><div class="ansbox"><p>参考答案 1.6 10<sup></sup>×9 1、C   2、  逆时针  3、</p></div></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 2</span><span class="s-title"></span></div>
+      <div class="s-body"><p>一个电子沿一圆周顺时针高速转动，周期为10______A，方向为_______方向(填顺时针或逆时针)。 </p></div></section>
+<section class="slide"><div class="s-head"><span class="crumb">课后练习 3</span><span class="s-title"></span></div>
+      <div class="s-body"><p>导线中的电流为1.6A，20s 内有__________个电子通过导线的横截面。</p></div></section></div>
+<button id="prev" disabled>‹</button><button id="next">›</button>
+<div id="pager"><span id="pg"></span></div>
+<script>
+function fit(){var s=Math.min(innerWidth/1280,innerHeight/720);document.getElementById('stage').style.setProperty('--s',(s*.98).toFixed(4));}
+addEventListener('resize',fit);
+var S=[].slice.call(document.querySelectorAll('.slide')),i=0;
+function go(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach(function(s,k){s.classList.toggle('on',k===i)});
+document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===S.length-1;
+document.getElementById('pg').textContent=(i+1)+' / '+S.length;
+document.getElementById('stage').scrollTop=0;}
+document.getElementById('prev').onclick=function(){go(i-1)};
+document.getElementById('next').onclick=function(){go(i+1)};
+addEventListener('keydown',function(e){
+ if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();go(i+1);}
+ else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1);}
+ else if(e.key==='Home')go(0); else if(e.key==='End')go(S.length-1);});
+document.addEventListener('click',function(e){
+  var t=e.target.closest('.toggle'); if(!t)return;
+  var body=t.parentNode; var open=body.classList.toggle('open');
+  t.textContent = open ? '🙈 隐藏解析' : '💡 显示解析';
+});
+fit();go(0);
+</script></body></html>
