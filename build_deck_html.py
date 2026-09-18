@@ -22,7 +22,7 @@ def flow(items, is_question=False):
     is_question=True 时识别 A./B. 选项行，单独成选项块。"""
     if is_question:
         from render_ws import _split_stem_options, _opts_html
-        stem, opts, figs = _split_stem_options(items)
+        stem, opts, figs, _flow = _split_stem_options(items)
         blocks = []
         sbuf = []
         for (txt, plain) in stem:
@@ -103,13 +103,14 @@ def answer_flow(items):
 SCHOOL = "深圳外国语学校博雅高中 · 物理"
 
 
-def build_slides(task_sections, ex_questions, lesson_title, period_label):
+def build_slides(task_sections, ex_questions, lesson_title, period_label, book=None,
+                 task_key=None):
     """组装幻灯片 HTML。ex_questions: list of {no, q_section, ans_items_or_None}"""
     slides = []
     # 封面
     slides.append(f"""<section class="slide cover">
       <div class="cv-school">{SCHOOL}</div>
-      <div class="cv-book">必修第三册 · 第十章 静电场中的能量</div>
+      <div class="cv-book">{esc(book or "必修第三册 · 第十章 静电场中的能量")}</div>
       <div class="cv-title">{esc(lesson_title)}</div>
       <div class="cv-sub">{esc(period_label)}</div>
       <div class="cv-hint">→ 方向键/空格翻页 · 讲解要点点击展开</div>
@@ -149,7 +150,7 @@ def build_slides(task_sections, ex_questions, lesson_title, period_label):
                 from task_answers import pick_task_answer
                 task_body = " ".join(p.get("plain", "")
                                      for it in s["items"] for p in it.get("paras", []))
-                raw = pick_task_answer(period_label or lesson_title, title, task_body)
+                raw = pick_task_answer(task_key or period_label or lesson_title, title, task_body)
                 if raw:
                     if "<" in raw:
                         ans_html = raw
@@ -186,7 +187,7 @@ def build_slides(task_sections, ex_questions, lesson_title, period_label):
                        + '<div class="ansbox">' + ans_html + '</div>')
         else:
             ans_div = ""
-        slides.append(f"""<section class="slide"><div class="s-head"><span class="crumb">课后练习 {q['no']}</span><span class="s-title">{q.get('qtitle','')}</span></div>
+        slides.append(f"""<section class="slide"><div class="s-head"><span class="crumb">课后练习 {q.get("qno", q["no"])}</span><span class="s-title">{q.get('qtitle','')}</span></div>
       <div class="s-body">{body}{ans_div}</div></section>""")
     return slides
 

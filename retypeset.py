@@ -343,7 +343,9 @@ def split_answer_by_no(sections):
         if s["kind"] == "ans":
             no = s.get("no")
             if no is not None:
-                ans.setdefault(no, []).extend(s["items"])
+                # 多题组（同一讲里两套 1~N 题）→ 用 (题号, 组号) 作 key，避免跨组错配
+                g = s.get("qgroup") or 0
+                ans.setdefault((no, g) if g else no, []).extend(s["items"])
             continue
         if s["kind"] != "answer":
             continue

@@ -6,3 +6,17 @@ secret/
 
 # 历史归档脚本（无独立维护价值，且同样读 secret）
 _archive/
+
+# 校本作业流水线的中间产物与成品（体积大、可重新生成）
+xb11/json/
+xb11/media/
+xb11/out/
+xb11/pdf/
+xb11/html/
+xb11/src/src_new/
+xb11/公式校对清单.md
+__pycache__/
+*.pyc
+# src/ 下的旧源副本（现行源在 src/src_new/，已被忽略）
+xb11/src/*.docx
+xb11/src/*.pdf
